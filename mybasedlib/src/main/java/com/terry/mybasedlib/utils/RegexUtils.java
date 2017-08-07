@@ -5,18 +5,19 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.jp.index.utils.ConstUtils.REGEX_DATE;
-import static com.jp.index.utils.ConstUtils.REGEX_EMAIL;
-import static com.jp.index.utils.ConstUtils.REGEX_ID_CARD15;
-import static com.jp.index.utils.ConstUtils.REGEX_ID_CARD18;
-import static com.jp.index.utils.ConstUtils.REGEX_IP;
-import static com.jp.index.utils.ConstUtils.REGEX_MOBILE_EXACT;
-import static com.jp.index.utils.ConstUtils.REGEX_MOBILE_SIMPLE;
-import static com.jp.index.utils.ConstUtils.REGEX_PASSWORD;
-import static com.jp.index.utils.ConstUtils.REGEX_TEL;
-import static com.jp.index.utils.ConstUtils.REGEX_URL;
-import static com.jp.index.utils.ConstUtils.REGEX_USERNICHENG;
-import static com.jp.index.utils.ConstUtils.REGEX_ZH;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_DATE;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_EMAIL;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_ID_CARD15;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_ID_CARD18;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_IP;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_MOBILE_EXACT;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_MOBILE_SIMPLE;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_PASSWORD;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_TEL;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_URL;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_USERNICHENG;
+import static com.terry.mybasedlib.utils.ConstUtils.REGEX_ZH;
+
 
 /**
  * <pre>
