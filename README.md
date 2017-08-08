@@ -3,6 +3,29 @@
 
 #### 常用的基础类，工具类。
 
+使用：
+直接把类拷贝项目中
+
+
+结构：
+* . base包
+  * ---mvp包
+    * ---MvpActivity.java
+    * ---MvpLazyFragment.java
+    * ---BaseView.java
+    * ---BasePresenter.java
+    ```
+    ---mvp下的base类:
+    优点:
+    1. 结构清晰，便于分析问题；
+    2. 解耦
+    缺点
+    1.编写类多
+    2. 实际存在一个问题，当一个业务接口要被多个Activity，Fargment调用时，就需要把它按着常规MVP模式写了；
+  * ---BaseActivity.java
+  * ---BaseFragment.java
+  * ---BaseLazyFragment.java(Fragment懒加载类)
+  
 
 
 ### License
