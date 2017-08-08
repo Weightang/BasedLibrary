@@ -39,6 +39,18 @@ public abstract class RetrofitManager {
     public abstract String getRxCache();
 
 
+//    public static RetrofitManager getInstance() {
+//        if (instance == null) {
+//            synchronized (RetrofitManager.class) {
+//                if (instance == null) {
+//                    instance = new RetrofitManager();
+//                }
+//            }
+//        }
+//        return instance;
+//    }
+
+
     public RetrofitManager() {
         initOkhttp(getAppContext());
     }

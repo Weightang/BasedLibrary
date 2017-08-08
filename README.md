@@ -25,9 +25,41 @@
   * ---BaseActivity.java
   * ---BaseFragment.java
   * ---BaseLazyFragment.java(Fragment懒加载类)
+* baseapi（http请求包）
+  * BaseFlowableSubscriber.java(支持背压的)
+  * BaseSubscriber.java
+  * ExceptionHandle.java
+  * JsonParams.java
+  * RetrofitCallback.java
+  * RetrofitManager.java
+* net(网络状态监听包)
+  * NetChangeObserver.java
+  * NetStateReceiver.java
+  * NetUtils.java
+* utils（工具包）
+  * AppManager.java
+  * CardNoUtils.java
+  * ConstUtils.java
+  * Convert.java
+  * DialogHelper.java
+  * Doubleformat.java
+  * EmptyUtils.java
+  * FragmentTabUtils.java
+  * ImageUtil.java
+  * MD5Utils.java
+  * RegexUtils.java
+  * SPUtils.java
+  * TimeUtils.java
+  
+  
+  
+  
+  
+### 感谢
+  [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
 
   
-
+  
 
 ### License
 
