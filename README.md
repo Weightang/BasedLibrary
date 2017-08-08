@@ -15,7 +15,7 @@
     * ---BaseView.java
     * ---BasePresenter.java
     ```
-    ---mvp下的base类:
+    mvp下的base类:
     优点:
     1. 结构清晰，便于分析问题；
     2. 解耦
@@ -25,6 +25,7 @@
   * ---BaseActivity.java
   * ---BaseFragment.java
   * ---BaseLazyFragment.java(Fragment懒加载类)
+
   
 
 
