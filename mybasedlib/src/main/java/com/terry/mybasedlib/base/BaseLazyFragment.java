@@ -9,9 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jp.index.App;
-import com.jp.index.api.OkGoClient;
-
 import butterknife.ButterKnife;
 
 public abstract class BaseLazyFragment extends Fragment {
@@ -93,10 +90,9 @@ public abstract class BaseLazyFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        OkGoClient.cancel(this);
-        App.fixInputMethodManagerLeak(getContext());
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            App.fixFocusedViewLeak(getActivity().getApplication());
+
         }
 
 //        App.getInstance().getRefWatcher().watch(this);

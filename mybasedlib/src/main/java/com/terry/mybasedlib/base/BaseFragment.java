@@ -10,11 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jp.index.App;
-import com.jp.index.api.OkGoClient;
-
-import org.greenrobot.eventbus.EventBus;
-
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
@@ -25,7 +20,7 @@ import butterknife.Unbinder;
 public abstract class BaseFragment extends Fragment  {
     private static final String STATE_SAVE_IS_HIDDEN = "STATE_SAVE_IS_HIDDEN";
     private Unbinder bind;
-    public EventBus eventBus = EventBus.getDefault();
+
 
 
 
@@ -80,10 +75,10 @@ public abstract class BaseFragment extends Fragment  {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        OkGoClient.cancel(this);
-        App.fixInputMethodManagerLeak(getContext());
+
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            App.fixFocusedViewLeak(getActivity().getApplication());
+
         }
 
         //内存泄露检测
